@@ -1,0 +1,15 @@
+{
+  "model_version": "20260704_114358",
+  "targets": [
+    "y2",
+    "y3",
+    "y4"
+  ],
+  "models": [
+    "random_forest",
+    "logistic_regression"
+  ],
+  "n_features": 2000,
+  "n_train": 164,
+  "n_test": 42
+}

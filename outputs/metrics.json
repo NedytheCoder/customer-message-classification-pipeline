@@ -1,0 +1,474 @@
+{
+  "random_forest": {
+    "y2": {
+      "accuracy": 0.7857142857142857,
+      "precision_macro": 0.7796296296296296,
+      "recall_macro": 0.7152255639097745,
+      "f1_macro": 0.7293657293657293,
+      "precision_weighted": 0.7937830687830688,
+      "recall_weighted": 0.7857142857142857,
+      "f1_weighted": 0.7784537784537785,
+      "per_class": {
+        "Other": {
+          "precision": 0.75,
+          "recall": 0.42857142857142855,
+          "f1-score": 0.5454545454545454,
+          "support": 7.0
+        },
+        "Problem/Fault": {
+          "precision": 0.7,
+          "recall": 0.875,
+          "f1-score": 0.7777777777777778,
+          "support": 16.0
+        },
+        "Suggestion": {
+          "precision": 0.8888888888888888,
+          "recall": 0.8421052631578947,
+          "f1-score": 0.8648648648648649,
+          "support": 19.0
+        },
+        "accuracy": 0.7857142857142857,
+        "macro avg": {
+          "precision": 0.7796296296296296,
+          "recall": 0.7152255639097745,
+          "f1-score": 0.7293657293657293,
+          "support": 42.0
+        },
+        "weighted avg": {
+          "precision": 0.7937830687830688,
+          "recall": 0.7857142857142857,
+          "f1-score": 0.7784537784537785,
+          "support": 42.0
+        }
+      }
+    },
+    "y3": {
+      "accuracy": 0.7142857142857143,
+      "precision_macro": 0.6265512265512266,
+      "recall_macro": 0.6182650682650682,
+      "f1_macro": 0.6182706182706182,
+      "precision_weighted": 0.6888133030990173,
+      "recall_weighted": 0.7142857142857143,
+      "f1_weighted": 0.6953020524449095,
+      "per_class": {
+        "AppGallery-Install/Upgrade": {
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.7692307692307693,
+          "support": 6.0
+        },
+        "AppGallery-Use": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "Coupon/Gifts/Points Issues": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "General": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "Invoice": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Other": {
+          "precision": 0.4444444444444444,
+          "recall": 0.5714285714285714,
+          "f1-score": 0.5,
+          "support": 7.0
+        },
+        "Payment": {
+          "precision": 0.7333333333333333,
+          "recall": 0.8461538461538461,
+          "f1-score": 0.7857142857142857,
+          "support": 13.0
+        },
+        "Payment issue": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Refund": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "Third Party APPs": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "VIP / Offers / Promotions": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 4.0
+        },
+        "accuracy": 0.7142857142857143,
+        "macro avg": {
+          "precision": 0.6265512265512266,
+          "recall": 0.6182650682650682,
+          "f1-score": 0.6182706182706182,
+          "support": 42.0
+        },
+        "weighted avg": {
+          "precision": 0.6888133030990173,
+          "recall": 0.7142857142857143,
+          "f1-score": 0.6953020524449095,
+          "support": 42.0
+        }
+      }
+    },
+    "y4": {
+      "accuracy": 0.7380952380952381,
+      "precision_macro": 0.628021978021978,
+      "recall_macro": 0.6942890442890443,
+      "f1_macro": 0.6326007326007327,
+      "precision_weighted": 0.7049319727891157,
+      "recall_weighted": 0.7380952380952381,
+      "f1_weighted": 0.7070294784580499,
+      "per_class": {
+        "Can't install Apps": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "Can't update Apps": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "Can't use or acquire": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "Cooperated campaign issue": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Invoice related request": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 1.0
+        },
+        "Offers / Vouchers / Promotions": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 4.0
+        },
+        "Other": {
+          "precision": 0.7,
+          "recall": 0.7,
+          "f1-score": 0.7,
+          "support": 10.0
+        },
+        "Other download/install/update issue": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1-score": 0.4,
+          "support": 1.0
+        },
+        "Query deduction details": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "Refund": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Risk Control": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Subscription cancellation": {
+          "precision": 0.7142857142857143,
+          "recall": 0.9090909090909091,
+          "f1-score": 0.8,
+          "support": 11.0
+        },
+        "Within 14 days of purchase (not product issue)": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "accuracy": 0.7380952380952381,
+        "macro avg": {
+          "precision": 0.628021978021978,
+          "recall": 0.6942890442890443,
+          "f1-score": 0.6326007326007327,
+          "support": 42.0
+        },
+        "weighted avg": {
+          "precision": 0.7049319727891157,
+          "recall": 0.7380952380952381,
+          "f1-score": 0.7070294784580499,
+          "support": 42.0
+        }
+      }
+    }
+  },
+  "logistic_regression": {
+    "y2": {
+      "accuracy": 0.7380952380952381,
+      "precision_macro": 0.7222222222222222,
+      "recall_macro": 0.650062656641604,
+      "f1_macro": 0.6558558558558559,
+      "precision_weighted": 0.742063492063492,
+      "recall_weighted": 0.7380952380952381,
+      "f1_weighted": 0.7217503217503218,
+      "per_class": {
+        "Other": {
+          "precision": 0.6666666666666666,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.4,
+          "support": 7.0
+        },
+        "Problem/Fault": {
+          "precision": 0.6666666666666666,
+          "recall": 0.875,
+          "f1-score": 0.7567567567567568,
+          "support": 16.0
+        },
+        "Suggestion": {
+          "precision": 0.8333333333333334,
+          "recall": 0.7894736842105263,
+          "f1-score": 0.8108108108108109,
+          "support": 19.0
+        },
+        "accuracy": 0.7380952380952381,
+        "macro avg": {
+          "precision": 0.7222222222222222,
+          "recall": 0.650062656641604,
+          "f1-score": 0.6558558558558559,
+          "support": 42.0
+        },
+        "weighted avg": {
+          "precision": 0.742063492063492,
+          "recall": 0.7380952380952381,
+          "f1-score": 0.7217503217503218,
+          "support": 42.0
+        }
+      }
+    },
+    "y3": {
+      "accuracy": 0.7142857142857143,
+      "precision_macro": 0.6389277389277389,
+      "recall_macro": 0.5987845487845488,
+      "f1_macro": 0.5916305916305916,
+      "precision_weighted": 0.7086691086691087,
+      "recall_weighted": 0.7142857142857143,
+      "f1_weighted": 0.6775888133030991,
+      "per_class": {
+        "AppGallery-Install/Upgrade": {
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8333333333333334,
+          "support": 6.0
+        },
+        "AppGallery-Use": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "Coupon/Gifts/Points Issues": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "General": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "Invoice": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Other": {
+          "precision": 0.46153846153846156,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.6,
+          "support": 7.0
+        },
+        "Payment": {
+          "precision": 0.7333333333333333,
+          "recall": 0.8461538461538461,
+          "f1-score": 0.7857142857142857,
+          "support": 13.0
+        },
+        "Payment issue": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Refund": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "Third Party APPs": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "VIP / Offers / Promotions": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1-score": 0.4,
+          "support": 4.0
+        },
+        "accuracy": 0.7142857142857143,
+        "macro avg": {
+          "precision": 0.6389277389277389,
+          "recall": 0.5987845487845488,
+          "f1-score": 0.5916305916305916,
+          "support": 42.0
+        },
+        "weighted avg": {
+          "precision": 0.7086691086691087,
+          "recall": 0.7142857142857143,
+          "f1-score": 0.6775888133030991,
+          "support": 42.0
+        }
+      }
+    },
+    "y4": {
+      "accuracy": 0.6190476190476191,
+      "precision_macro": 0.46868131868131874,
+      "recall_macro": 0.4590909090909091,
+      "f1_macro": 0.44,
+      "precision_weighted": 0.5374149659863946,
+      "recall_weighted": 0.6190476190476191,
+      "f1_weighted": 0.5361904761904762,
+      "per_class": {
+        "Can't install Apps": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "Can't update Apps": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "Can't use or acquire": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "Cooperated campaign issue": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "Invoice related request": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Offers / Vouchers / Promotions": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1-score": 0.4,
+          "support": 4.0
+        },
+        "Other": {
+          "precision": 0.45,
+          "recall": 0.9,
+          "f1-score": 0.6,
+          "support": 10.0
+        },
+        "Other download/install/update issue": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "Query deduction details": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "Refund": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Risk Control": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "Subscription cancellation": {
+          "precision": 0.6428571428571429,
+          "recall": 0.8181818181818182,
+          "f1-score": 0.72,
+          "support": 11.0
+        },
+        "Within 14 days of purchase (not product issue)": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "accuracy": 0.6190476190476191,
+        "macro avg": {
+          "precision": 0.46868131868131874,
+          "recall": 0.4590909090909091,
+          "f1-score": 0.44,
+          "support": 42.0
+        },
+        "weighted avg": {
+          "precision": 0.5374149659863946,
+          "recall": 0.6190476190476191,
+          "f1-score": 0.5361904761904762,
+          "support": 42.0
+        }
+      }
+    }
+  }
+}
